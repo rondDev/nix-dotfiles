@@ -83,7 +83,7 @@
   programs.firefox.enable = true;
   programs.hyprland.enable = true;
   programs.fish.enable = true;
-  programs.waybar.enable = true;
+  # programs.waybar.enable = true;
   programs.steam.enable = true;
 
 
@@ -104,36 +104,36 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
-     pkgs.neovim
-     pkgs.ghostty
-     pkgs.kitty
-     pkgs.btop
-     pkgs.brave
-     pkgs.git
-     pkgs.github-cli
-     pkgs.lazygit
-     pkgs.lazydocker
-     pkgs.podman
-     pkgs.rustup
-     pkgs.wl-clipboard
-     pkgs.zoxide
-     pkgs.yazi
-     pkgs.vesktop
-     pkgs.gcc
-     pkgs.fzf
-     pkgs.wofi
-     pkgs.hyprpaper
-     pkgs.dunst
-     pkgs.grim
-     pkgs.hyprpicker
-     pkgs.docker
-     pkgs.deno
-     pkgs.starship
-     pkgs.wine
-     pkgs.protonplus
-     pkgs.spotify
-     pkgs.lutris
-     pkgs.protonup-qt
+     neovim
+     ghostty
+     kitty
+     btop
+     brave
+     git
+     github-cli
+     lazygit
+     lazydocker
+     podman
+     rustup
+     wl-clipboard
+     zoxide
+     yazi
+     vesktop
+     gcc
+     fzf
+     wofi
+     hyprpaper
+     dunst
+     grim
+     hyprpicker
+     docker
+     deno
+     starship
+     wine
+     protonplus
+     spotify
+     lutris
+     protonup-qt
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
